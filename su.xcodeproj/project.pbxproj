@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861B16921DC4AF33009E0759 /* mvpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B16911DC4AF33009E0759 /* mvpViewController.m */; };
 		862EFD3F1D90098F00771D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EFD3E1D90098F00771D1A /* main.m */; };
 		862EFD421D90098F00771D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EFD411D90098F00771D1A /* AppDelegate.m */; };
 		862EFD451D90098F00771D1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EFD441D90098F00771D1A /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		862EFD4D1D90098F00771D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862EFD4B1D90098F00771D1A /* LaunchScreen.storyboard */; };
 		862EFD581D90098F00771D1A /* suTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EFD571D90098F00771D1A /* suTests.m */; };
 		862EFD631D90098F00771D1A /* suUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EFD621D90098F00771D1A /* suUITests.m */; };
+		869570801D9FD467009A691C /* Activity01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8695707F1D9FD467009A691C /* Activity01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		861B16901DC4AF33009E0759 /* mvpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvpViewController.h; sourceTree = "<group>"; };
+		861B16911DC4AF33009E0759 /* mvpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mvpViewController.m; sourceTree = "<group>"; };
 		862EFD3A1D90098F00771D1A /* su.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = su.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862EFD3E1D90098F00771D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		862EFD401D90098F00771D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 		862EFD5E1D90098F00771D1A /* suUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		862EFD621D90098F00771D1A /* suUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = suUITests.m; sourceTree = "<group>"; };
 		862EFD641D90098F00771D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8695707F1D9FD467009A691C /* Activity01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Activity01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				862EFD411D90098F00771D1A /* AppDelegate.m */,
 				862EFD431D90098F00771D1A /* ViewController.h */,
 				862EFD441D90098F00771D1A /* ViewController.m */,
+				861B16901DC4AF33009E0759 /* mvpViewController.h */,
+				861B16911DC4AF33009E0759 /* mvpViewController.m */,
+				8695707F1D9FD467009A691C /* Activity01.png */,
 				862EFD461D90098F00771D1A /* Main.storyboard */,
 				862EFD491D90098F00771D1A /* Assets.xcassets */,
 				862EFD4B1D90098F00771D1A /* LaunchScreen.storyboard */,
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					862EFD391D90098F00771D1A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 228YX4533A;
 					};
 					862EFD521D90098F00771D1A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -246,6 +255,7 @@
 				862EFD4D1D90098F00771D1A /* LaunchScreen.storyboard in Resources */,
 				862EFD4A1D90098F00771D1A /* Assets.xcassets in Resources */,
 				862EFD481D90098F00771D1A /* Main.storyboard in Resources */,
+				869570801D9FD467009A691C /* Activity01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861B16921DC4AF33009E0759 /* mvpViewController.m in Sources */,
 				862EFD451D90098F00771D1A /* ViewController.m in Sources */,
 				862EFD421D90098F00771D1A /* AppDelegate.m in Sources */,
 				862EFD3F1D90098F00771D1A /* main.m in Sources */,
@@ -415,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 228YX4533A;
 				INFOPLIST_FILE = su/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.gzt22.com.su;
@@ -426,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 228YX4533A;
 				INFOPLIST_FILE = su/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.gzt22.com.su;
@@ -498,6 +511,7 @@
 				862EFD691D90098F00771D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		862EFD6A1D90098F00771D1A /* Build configuration list for PBXNativeTarget "suTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +520,7 @@
 				862EFD6C1D90098F00771D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		862EFD6D1D90098F00771D1A /* Build configuration list for PBXNativeTarget "suUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +529,7 @@
 				862EFD6F1D90098F00771D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
